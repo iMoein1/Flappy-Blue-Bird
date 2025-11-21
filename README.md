@@ -61,7 +61,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+git clone (https://github.com/iMoein1/Flappy-Blue-Bird.git)
 Run the game: Simply navigate to the folder and double-click index.html to open it in your default web browser.
 
 🧠 Code Highlights
