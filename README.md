@@ -194,3 +194,5 @@ BoundingClientRect: استفاده از متد getBoundingClientRect() برای 
 این پروژه به صورت متن‌باز (Open Source) منتشر شده است و استفاده از آن برای مقاصد آموزشی آزاد است.
 
 ساخته شده با ❤️ و ☕
+ooz on top
+
