@@ -1,8 +1,6 @@
 🐦 Flappy Bird Game (Web Version)
 A lightweight, browser-based recreation of the classic Flappy Bird game, built entirely with HTML5, CSS3, and Vanilla JavaScript. This project demonstrates DOM manipulation, game loops using requestAnimationFrame, and collision detection logic.
 
-(Note: Capture a screenshot of your game running and save it as game-preview.png in your images folder to display it here.)
-
 ✨ Features
 Physics Engine: Simulates gravity and jump mechanics for smooth movement.
 
@@ -110,8 +108,6 @@ This project is open source and available for educational purposes.
 
 🐦 بازی Flappy Bird (نسخه تحت وب)
 یک بازسازی ساده و جذاب از بازی محبوب Flappy Bird که با استفاده از HTML5، CSS3 و Vanilla JavaScript خالص پیاده‌سازی شده است. این پروژه برای درک نحوه کار با DOM، انیمیشن‌ها در جاوااسکریپت و منطق بازی‌های دو بعدی بسیار مفید است.
-
-(پیشنهاد: یک اسکرین‌شات از بازی خود بگیرید و با نام game-preview.png در پوشه images ذخیره کنید تا اینجا نمایش داده شود)
 
 ✨ ویژگی‌ها
 مکانیزم جاذبه: شبیه‌سازی سقوط آزاد پرنده با استفاده از قوانین فیزیک ساده.
