@@ -158,7 +158,7 @@ Flappy-Bird-JS/
 
 Bash
 
-git clone https://github.com/USERNAME/REPOSITORY-NAME.git
+git clone (https://github.com/iMoein1/Flappy-Blue-Bird.git)
 فایل index.html را در مرورگر خود باز کنید (دابل کلیک کنید).
 
 🕹️ کنترل‌های بازی
