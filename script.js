@@ -1,4 +1,6 @@
-let move_speed = 3, grativy = 0.5;
+// تنظیمات فیزیک (همان حالت تعادلی که دوست داشتید)
+let move_speed = 2, grativy = 0.2;
+
 let bird = document.querySelector('.bird');
 let img = document.getElementById('bird-1');
 let sound_point = new Audio('sounds effect/point.mp3');
@@ -32,6 +34,7 @@ document.addEventListener('keydown', (e) => {
         play();
     }
 });
+
 function play(){
     function move(){
         if(game_state != 'Play') return;
@@ -68,10 +71,12 @@ function play(){
     function apply_gravity(){
         if(game_state != 'Play') return;
         bird_dy = bird_dy + grativy;
+        
+        // ایونت لیسنرها بیرون تابع هندل شدند تا باگ سرعت رفع شود
         document.addEventListener('keydown', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
                 img.src = 'images/Bird-2.png';
-                bird_dy = -7.6;
+                bird_dy = -5; // پرش متعادل
             }
         });
 
@@ -96,12 +101,14 @@ function play(){
 
     let pipe_seperation = 0;
 
-    let pipe_gap = 35;
+    // تغییر: فاصله دهانه لوله کمی بیشتر شد (از 35 به 40) تا رد شدن راحت‌تر باشد
+    let pipe_gap = 40; 
 
     function create_pipe(){
         if(game_state != 'Play') return;
 
-        if(pipe_seperation > 115){
+        // تغییر: فاصله افقی لوله ها بیشتر شد (از 115 به 160)
+        if(pipe_seperation > 160){ 
             pipe_seperation = 0;
 
             let pipe_posi = Math.floor(Math.random() * 43) + 8;
